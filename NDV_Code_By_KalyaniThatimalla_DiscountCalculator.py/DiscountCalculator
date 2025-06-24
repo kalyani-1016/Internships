@@ -1,0 +1,5 @@
+marked_price=int(input("Enter your marked price:"))
+discount_percentage=int(input("Enter discount percentage:"))
+discount_value=(discount_percentage/100)*marked_price
+final_cost=marked_price-discount_value
+print("Final cost of the product:",int(final_cost))
